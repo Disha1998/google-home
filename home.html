@@ -1,143 +1,126 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="home.css" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  </head>
-  <body>
-
+    <title>Google Clone</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
     <nav>
         <div class="nav-left">
             <a href="#" class="nav-item">About</a>
             <a href="#" class="nav-item">Store</a>
         </div>
-        
         <div class="nav-right">
             <a href="#" class="nav-item">Gmail</a>
             <a href="#" class="nav-item">Images</a>
-            <!-- <a href="#"> -->
-                <img class="img" src="https://ssl.gstatic.com/gb/images/bar/al-icon.png" >
-            <!-- </a> -->
+            <img src="https://ssl.gstatic.com/gb/images/bar/al-icon.png" alt="Google apps" class="apps-icon">
             <a href="#" class="sign-in">Sign in</a>
         </div>
     </nav>
-
-   <div class="center-container">
-    <div class="google-img-container">
-        <div class="img-wrapper">
-            <img class="google-logo" alt="Google" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
-        </div>
-    </div>
-<!-- </div> -->
-      <div class="search-section">
-          <div class="search-box">
-            <div class="search-icon">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                width="20"
-                height="20"
-                fill="none"
-                stroke="#9aa0a6"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <circle cx="11" cy="11" r="8"></circle>
-                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-              </svg>
+    <main class="main-content">
+        <div class="google-img-container">
+            <div class="img-wrapper">
+                <img class="google-logo" alt="Google" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
             </div>
-            <input type="text" class="search-input" placeholder="" />
-            <div class="search-buttons">
-              <button class="voice-search">
-                  <svg class="goxjub" focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                      <path fill="#4285f4" d="m12 15c1.66 0 3-1.31 3-2.97v-7.02c0-1.66-1.34-3.01-3-3.01s-3 1.34-3 3.01v7.02c0 1.66 1.34 2.97 3 2.97z"></path>
-                      <path fill="#34a853" d="m11 18.08h2v3.92h-2z"></path>
-                      <path fill="#fbbc04" d="m7.05 16.87c-1.27-1.33-2.05-2.83-2.05-4.87h2c0 1.45 0.56 2.42 1.47 3.38v0.32l-1.15 1.18z"></path>
-                      <path fill="#ea4335" d="m12 16.93a4.97 5.25 0 0 1 -3.54 -1.55l-1.41 1.49c1.26 1.34 3.02 2.13 4.95 2.13 3.87 0 6.99-2.92 6.99-7h-1.99c0 2.92-2.24 4.93-5 4.93z"></path>
-                  </svg>
-              </button>
-              <button class="lens-search">
-                  <svg class="Gdd5U" focusable="false" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg">
-                      <rect fill="none" height="192" width="192"></rect>
-                      <g>
-                          <circle fill="#34a853" cx="144.07" cy="144" r="16"></circle>
-                          <circle fill="#4285f4" cx="96.07" cy="104" r="24"></circle>
-                          <path fill="#ea4335" d="M24,135.2c0,18.11,14.69,32.8,32.8,32.8H96v-16l-40.1-0.1c-8.8,0-15.9-8.19-15.9-17.9v-18H24V135.2z"></path>
-                          <path fill="#fbbc04" d="M168,72.8c0-18.11-14.69-32.8-32.8-32.8H116l20,16c8.8,0,16,8.29,16,18v30h16V72.8z"></path>
-                          <path fill="#4285f4" d="M112,24l-32,0L68,40H56.8C38.69,40,24,54.69,24,72.8V92h16V74c0-9.71,7.2-18,16-18h80L112,24z"></path>
-                      </g>
-                  </svg>
-                  <circle cx="96" cy="96" r="39" fill="#4285f4" />
-                  <circle cx="96" cy="96" r="25" fill="white" />
-                  <circle cx="96" cy="96" r="16" fill="#ea4335" />
-                  <path
-                    d="M58,38 L134,38 L134,56"
-                    stroke="#fbbc05"
-                    stroke-width="12"
-                    fill="none"
-                  />
-                  <path
-                    d="M134,134 L58,134 L58,116"
-                    stroke="#34a853"
-                    stroke-width="12"
-                    fill="none"
-                  />
+        </div>
+        <div class="search-section">
+            <div class="search-box">
+              <div class="search-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="20"
+                  height="20"
+                  fill="none"
+                  stroke="#9aa0a6"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
                 </svg>
-              </button>
+              </div>
+              <input type="text" class="search-input" placeholder="" />
+              <div class="search-buttons">
+                <button class="voice-search">
+                    <svg class="goxjub" focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#4285f4" d="m12 15c1.66 0 3-1.31 3-2.97v-7.02c0-1.66-1.34-3.01-3-3.01s-3 1.34-3 3.01v7.02c0 1.66 1.34 2.97 3 2.97z"></path>
+                        <path fill="#34a853" d="m11 18.08h2v3.92h-2z"></path>
+                        <path fill="#fbbc04" d="m7.05 16.87c-1.27-1.33-2.05-2.83-2.05-4.87h2c0 1.45 0.56 2.42 1.47 3.38v0.32l-1.15 1.18z"></path>
+                        <path fill="#ea4335" d="m12 16.93a4.97 5.25 0 0 1 -3.54 -1.55l-1.41 1.49c1.26 1.34 3.02 2.13 4.95 2.13 3.87 0 6.99-2.92 6.99-7h-1.99c0 2.92-2.24 4.93-5 4.93z"></path>
+                    </svg>
+                </button>
+                <button class="lens-search">
+                    <svg class="Gdd5U" focusable="false" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg">
+                        <rect fill="none" height="192" width="192"></rect>
+                        <g>
+                            <circle fill="#34a853" cx="144.07" cy="144" r="16"></circle>
+                            <circle fill="#4285f4" cx="96.07" cy="104" r="24"></circle>
+                            <path fill="#ea4335" d="M24,135.2c0,18.11,14.69,32.8,32.8,32.8H96v-16l-40.1-0.1c-8.8,0-15.9-8.19-15.9-17.9v-18H24V135.2z"></path>
+                            <path fill="#fbbc04" d="M168,72.8c0-18.11-14.69-32.8-32.8-32.8H116l20,16c8.8,0,16,8.29,16,18v30h16V72.8z"></path>
+                            <path fill="#4285f4" d="M112,24l-32,0L68,40H56.8C38.69,40,24,54.69,24,72.8V92h16V74c0-9.71,7.2-18,16-18h80L112,24z"></path>
+                        </g>
+                    </svg>
+                    <circle cx="96" cy="96" r="39" fill="#4285f4" />
+                    <circle cx="96" cy="96" r="25" fill="white" />
+                    <circle cx="96" cy="96" r="16" fill="#ea4335" />
+                    <path
+                      d="M58,38 L134,38 L134,56"
+                      stroke="#fbbc05"
+                      stroke-width="12"
+                      fill="none"
+                    />
+                    <path
+                      d="M134,134 L58,134 L58,116"
+                      stroke="#34a853"
+                      stroke-width="12"
+                      fill="none"
+                    />
+                  </svg>
+                </button>
+              </div>
             </div>
           </div>
+        <div class="buttons">
+            <button class="search-button">Google Search</button>
+            <button class="search-button">I'm Feeling Lucky</button>
         </div>
-        <div class="btn-area">
-          <button class="google-search-btn">
-              Google Search
-          </button>
-          <button class="google-search-btn1">
-              I'm Feeling Lucky
-          </button>
-        </div>
-        <div class="lower-area">
-          <a href="https://store.google.com/in/?hl=en-IN&utm_source=search&utm_medium=google_oo&utm_campaign=GS108350&utm_term=ms&utm_content=hpp&pli=1">New! Google Pixel 9a: Where AI magic meets durable design. Available now</a>
-        </div>
-        <div class="lang-area">
-          <div class="offered-in">Google offered in:  
-              <a href="https://www.google.com/setprefs?sig=0_PNDpUFhI-X_5B7iiwKse7EqU5pc%3D&amp;hl=hi&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjW65Cc_duMAxUvma8BHbsNDxwQ2ZgBCCU">हिन्दी</a>    
-              <a href="https://www.google.com/setprefs?sig=0_PNDpUFhI-X_5B7iiwKse7EqU5pc%3D&amp;hl=bn&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjW65Cc_duMAxUvma8BHbsNDxwQ2ZgBCCY">বাংলা</a>    
-              <a href="https://www.google.com/setprefs?sig=0_PNDpUFhI-X_5B7iiwKse7EqU5pc%3D&amp;hl=te&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjW65Cc_duMAxUvma8BHbsNDxwQ2ZgBCCc">తెలుగు</a>   
-              <a href="https://www.google.com/setprefs?sig=0_PNDpUFhI-X_5B7iiwKse7EqU5pc%3D&amp;hl=mr&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjW65Cc_duMAxUvma8BHbsNDxwQ2ZgBCCg">मराठी</a>  
-              <a href="https://www.google.com/setprefs?sig=0_PNDpUFhI-X_5B7iiwKse7EqU5pc%3D&amp;hl=ta&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjW65Cc_duMAxUvma8BHbsNDxwQ2ZgBCCk">தமிழ்</a>    
-              <a href="https://www.google.com/setprefs?sig=0_PNDpUFhI-X_5B7iiwKse7EqU5pc%3D&amp;hl=gu&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjW65Cc_duMAxUvma8BHbsNDxwQ2ZgBCCo">ગુજરાતી</a>   
-              <a href="https://www.google.com/setprefs?sig=0_PNDpUFhI-X_5B7iiwKse7EqU5pc%3D&amp;hl=kn&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjW65Cc_duMAxUvma8BHbsNDxwQ2ZgBCCs">ಕನ್ನಡ</a>   
-              <a href="https://www.google.com/setprefs?sig=0_PNDpUFhI-X_5B7iiwKse7EqU5pc%3D&amp;hl=ml&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjW65Cc_duMAxUvma8BHbsNDxwQ2ZgBCCw">മലയാളം</a>   
-              <a href="https://www.google.com/setprefs?sig=0_PNDpUFhI-X_5B7iiwKse7EqU5pc%3D&amp;hl=pa&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjW65Cc_duMAxUvma8BHbsNDxwQ2ZgBCC0">ਪੰਜਾਬੀ</a> 
-          </div>
-        </div>
-     </div>
-   </div>
-  
-<footer class="footer-container">
-    <div class="footer-location">India</div>
-    
-    <div class="footer-links">
-        <div class="footer-links-left">
-            <a class="footer-link" href="#">Advertising</a>
-            <a class="footer-link" href="#">Business</a>
-            <a class="footer-link" href="#">How Search works</a>
-        </div>
-        
-        <div class="footer-links-right">
-            <a class="footer-link" href="#">Privacy</a>
-            <a class="footer-link" href="#">Terms</a>
-            <div class="footer-settings">
-                <a class="settings-link" href="#">Settings</a>
-                <div class="settings-menu">
 
-                </div>
+        <div class="promo">
+            <a href="#">New! Google Pixel 9a: Where AI magic meets durable design. Available now</a>
+        </div>
+
+        <div class="language-options">
+            Google offered in: 
+            <a href="#">हिन्दी</a>
+            <a href="#">বাংলা</a>
+            <a href="#">తెలుగు</a>
+            <a href="#">मराठी</a>
+            <a href="#">தமிழ்</a>
+            <a href="#">ગુજરાતી</a>
+            <a href="#">ಕನ್ನಡ</a>
+            <a href="#">മലയാളം</a>
+            <a href="#">ਪੰਜਾਬੀ</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-location">India</div>
+        <div class="footer-links">
+            <div class="footer-left">
+                <a href="#">Advertising</a>
+                <a href="#">Business</a>
+                <a href="#">How Search works</a>
+            </div>
+            <div class="footer-right">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Settings</a>
             </div>
         </div>
-    </div>
-</footer>
-  </body>
+    </footer>
+</body>
 </html>
-
